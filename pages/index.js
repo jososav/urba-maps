@@ -65,9 +65,6 @@ export default function Home() {
       <div>POC DE CONDOMINIOS</div>
       <ImageMapper
         onClick={({name}) => setSelected(name)}
-        onImageClick={(event) => {
-          console.log(event, "area");
-        }}
         width={1000}
         imgWidth={1000}
         src="/diseno.jpg"
