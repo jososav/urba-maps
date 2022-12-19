@@ -70,7 +70,7 @@ export default function Home() {
         }}
         width={1000}
         imgWidth={1000}
-        src="/diseno.png"
+        src="/diseno.jpg"
         map={{
           name: "test",
           areas: AREAS,
