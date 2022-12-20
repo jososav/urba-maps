@@ -25,6 +25,21 @@ const AREAS = [
       [454, 118],
     ],
   },
+  {
+    id: "469f9800-c45a-483f-b13e-bd24f3fb79f4",
+    title: "Hardwood",
+    shape: "poly",
+    name: "20",
+    fillColor: "#eab54d4d",
+    strokeColor: "black",
+    coords: [480, 105, 510, 110, 506, 140, 505, 142],
+    polygon: [
+      [480, 105],
+      [510, 110],
+      [506, 140],
+      [505, 142],
+    ],
+  },
 ];
 
 const LOTES = {
@@ -33,6 +48,11 @@ const LOTES = {
     description: "1000m2",
     status: 'Vendido',
   },
+  20: {
+    name: "Lote 20",
+    description: "1500m2",
+    status: 'Disponible',
+  }
 };
 
 const Modal = ({ setSelected, selected }) => {
