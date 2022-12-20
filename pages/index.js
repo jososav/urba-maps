@@ -31,6 +31,7 @@ const LOTES = {
   19: {
     name: "Lote 19",
     description: "1000m2",
+    status: 'Vendido',
   },
 };
 
@@ -50,6 +51,9 @@ const Modal = ({ setSelected, selected }) => {
             <Typography variant="body2">
               Descripción: {lote.description}
             </Typography>
+            <Typography variant="body2">
+              Estado: {lote.status}
+            </Typography>
           </CardContent>
         </Card>
       </div>
@@ -59,14 +63,6 @@ const Modal = ({ setSelected, selected }) => {
 
 export default function Home() {
   const [selected, setSelected] = useState(null);
-
-  useEffect(() => {
-    if (selected) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "scroll";
-    }
-  }, [selected]);
 
   return (
     <>
