@@ -1,5 +1,5 @@
 .modal {
-  position: absolute;
+  position: fixed;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -12,5 +12,8 @@
 .data {
   padding: 5px;
   background-color: blue;
-  
+}
+
+.container {
+  padding-top: 10px;
 }
